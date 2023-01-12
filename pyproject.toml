@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "recsys"
+version = "0.1.0"
+description = ""
+authors = ["Sarvar-Anvarov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+scikit-learn = "^1.2.0"
+regex = "^2022.10.31"
+openpyxl = "^3.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
