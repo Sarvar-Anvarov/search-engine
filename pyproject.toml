@@ -12,6 +12,7 @@ numpy = "^1.24.1"
 scikit-learn = "^1.2.0"
 regex = "^2022.10.31"
 openpyxl = "^3.0.10"
+nltk = "^3.8.1"
 
 
 [build-system]
