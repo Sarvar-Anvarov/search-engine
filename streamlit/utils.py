@@ -1,8 +1,12 @@
 import os
 import sys
+import nltk
 
 # this is temporary solution
 sys.path.append(os.path.join(sys.path[0], "../../src"))
+
+# download stopwords
+nltk.download("stopwords")
 
 
 def make_clickable(link):
