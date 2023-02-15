@@ -29,6 +29,7 @@ top_n_ind = search_products(
 
 
 # Display output
+
 df = X.iloc[top_n_ind][["product", "url", "category", "description"]]
 df["url"] = df["url"].apply(utils.make_clickable)
 df = df.to_html(escape=False)

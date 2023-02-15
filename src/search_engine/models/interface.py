@@ -1,5 +1,6 @@
 from typing import Protocol
 
+
 class BaseSearchEngine(Protocol):
     def __init__(self, *args, **kwargs):
         self.name = None
